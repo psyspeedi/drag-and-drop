@@ -1,4 +1,5 @@
 {
+  "name": "@psyspeedi/drag-and-drop",
   "version": "0.1.6",
   "private": true,
   "description": "Drag and drop package.",
