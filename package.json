@@ -1,7 +1,6 @@
 {
   "name": "@psyspeedi/drag-and-drop",
   "version": "0.1.6",
-  "private": true,
   "description": "Drag and drop package.",
   "main": "./index.cjs",
   "types": "./index.d.cts",
