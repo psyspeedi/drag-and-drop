@@ -325,7 +325,7 @@ export function tearDown(parent: HTMLElement) {
 function setup<T>(parent: HTMLElement, parentData: ParentData<T>): void {
   parentData.abortControllers.mainParent = addEvents(parent, {
     dragover: parentEventData(
-      throttle(parentData.config.handleDragoverParent, 10)
+      throttle(parentData.config.handleDragoverParent, 1000)
     ),
     touchOverParent: parentData.config.handleTouchOverParent,
   });

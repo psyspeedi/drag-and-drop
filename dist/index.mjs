@@ -1242,7 +1242,7 @@ function tearDown(parent) {
 function setup(parent, parentData) {
   parentData.abortControllers.mainParent = addEvents(parent, {
     dragover: parentEventData(
-      throttle(parentData.config.handleDragoverParent, 10)
+      throttle(parentData.config.handleDragoverParent, 1e3)
     ),
     touchOverParent: parentData.config.handleTouchOverParent
   });
